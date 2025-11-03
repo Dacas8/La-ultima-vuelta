@@ -28,6 +28,14 @@ body#sec1{
     margin: 5px auto;
     margin-bottom: 40px;
 }
+#max{
+    display: block;
+    margin: 5px auto;
+    margin-bottom: 40px;
+}
+body {
+  text-align: center;
+}
 h1{
     font-family: Poppins;
     font-weight: 900;
@@ -35,7 +43,6 @@ h1{
     text-align: center;
     color: #5C5C5C;
     /* margin-bottom: 1px; */
-
 }
 h1#index{
     font-family: Poppins;
@@ -43,6 +50,18 @@ h1#index{
     font-size: 70pt;
     text-align: center;
     color: aliceblue;
+}
+h1#especial{
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 70pt;
+    text-align: center;
+    color: beige;
+    display: inline-block;       
+    background-color: #5C5C5C;   
+    padding: 20px 80px;
+    margin: -100px auto 20px auto; 
+  
 }
 
 
@@ -57,10 +76,27 @@ h3{
     font-size: 12pt;
     text-align: center;
     color: aliceblue;
+    
+}
+h3#s2{
+    font-family: Poppins; 
+    text-align: center;    
+    font-size: 18px;       
+    color: #5C5C5C; 
+    margin-bottom: 40px;
 }
 #parrafo{
     font-family: Poppins;
     max-width: 800px;      
+    margin: 0 auto 40px auto; 
+    text-align: center;    
+    font-size: 18px;       
+    color: #5C5C5C;   
+}
+#parrafo2{
+    font-family: Poppins;
+    font-weight: 300;
+    max-width: 1000px;      
     margin: 0 auto 40px auto; 
     text-align: center;    
     font-size: 18px;       
