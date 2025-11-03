@@ -18,6 +18,11 @@ body#home {
 }
 body#sec1{
     background-color: beige;
+    text-align: center;
+}
+body#sec3{
+    background-color: #e83c4c;
+    text-align: center;
 }
 #portada{
     display: block;
@@ -32,9 +37,6 @@ body#sec1{
     display: block;
     margin: 5px auto;
     margin-bottom: 40px;
-}
-body {
-  text-align: center;
 }
 h1{
     font-family: Poppins;
@@ -103,6 +105,36 @@ h3#s2{
     color: #5C5C5C;   
 
 }
+#parrafo3{
+    font-family: Poppins;
+    font-weight: 200;
+    max-width: 1000px;      
+    margin: 0 auto 40px auto; 
+    text-align: center;    
+    font-size: 18px;       
+    color: beige;   
+
+}
+#imagenes{
+    display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* para que se acomoden en celular */
+}
+#imagenes img{
+      width: 40%; 
+  max-width: 500px;
+  height: auto;
+}
+#imagen-grande img{
+    width: 80%;        
+  height: auto;
+  margin-top: 40px;
+  
+
+}
+
 
 nav{
     display: flex;
@@ -116,7 +148,7 @@ nav a{
     font-size: 12pt;
     padding: 1% 3%;
     text-decoration: none;
-    color: white;
+    color: beige;
     background-color:#5C5C5C;
     margin: 10px;
     border-radius: 12px;
@@ -136,23 +168,49 @@ header{
     background-color: beige;
     padding: 5%;
 }
+header#sec3{
+    background-color: #e83c4c;
+    padding: 5%;
+}
 
 nav{
     background-color: #e83c4c;
     padding: 2%;
 
 }
+nav#final{
+    background-color: #5C5C5C;
+    padding: 2%;
+
+}
 
 section{
-    font-family: Arial, Helvetica, sans-serif;
-    height: 600px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
-    background-color: cornsilk;
+    font-family: Poppins;
+    height: 950px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: beige;
     padding: 5%;
+}
+section#s2{
+    font-family: Poppins;
+    height: 1200px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: beige;
+    padding: 5%;
+}
+section#s3{
+    font-family: Poppins;
+    height: 2000px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: #e83c4c;
+    padding: 5%;
+}
+a#s3{
+    color: beige;
+    text-align: center;
 }
 
 footer{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins;
     background-color: burlywood;
     padding: 1%;
     text-align: center;
+    margin: top;
 }
